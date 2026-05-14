@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudip Bhattarai | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q65NH0XWEH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q65NH0XWEH');
+  </script>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">SB.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content max-w">
+      <div class="hero-text">
+        <div class="hero-badge"><span></span> Available for Opportunities</div>
+        <h1 class="hero-name">Sudip<br><span class="highlight">Bhattarai</span></h1>
+        <p class="hero-title"><span id="typed-text"></span><span class="typed-cursor">|</span></p>
+        <p class="hero-tagline">Hi! I'm Sudip — a CS student from Nepal passionate about coding. I build projects with C++, explore web development, and I'm on a mission to grow one commit at a time.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="hero-photo-wrap">
+          <!-- Replace the src below with your actual photo filename if available -->
+          <img src="dffe4cbb-d2b4-4b18-9f8b-0530b0414b62-1_all_2480.jpg"
+               alt="Sudip Bhattarai"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="photo-fallback">
+            <span>SB</span>
+          </div>
+        </div>
+        <div class="hero-photo-deco">
+          <div class="deco-ring"></div>
+          <div class="deco-dot deco-dot-1"></div>
+          <div class="deco-dot deco-dot-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section max-w">
+    <div class="section-label">01 / About</div>
+    <div class="section-divider"></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <h2 class="section-title">Who I Am</h2>
+        <p>I'm a <strong>Computer Science student from Nepal</strong> with a strong passion for low-level programming, computer graphics, and web development. I love building things from scratch and understanding how they work under the hood.</p>
+        <p>Currently focused on growing my skills in <strong>C++, OpenGL,</strong> and modern web technologies — one commit at a time.</p>
+        <div class="about-stats">
+          <div class="stat-card reveal">
+            <div class="stat-num">2+</div>
+            <div class="stat-label">Years Coding</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-num">∞</div>
+            <div class="stat-label">Lines to Learn</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-num">🇳🇵</div>
+            <div class="stat-label">From Nepal</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-card-wrap reveal">
+        <div class="about-info-card">
+          <div class="info-row"><i class="fas fa-map-marker-alt"></i><span>Nepal</span></div>
+          <div class="info-row"><i class="fas fa-graduation-cap"></i><span>CS Student</span></div>
+          <div class="info-row"><i class="fas fa-code"></i><span>C++ &amp; Web Dev</span></div>
+          <div class="info-row"><i class="fas fa-terminal"></i><span>OpenGL / GLUT</span></div>
+          <div class="info-row"><i class="fab fa-github"></i><a href="https://github.com/meSudip028" target="_blank" rel="noopener">github.com/meSudip028</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section max-w">
+    <div class="section-label">02 / Skills</div>
+    <h2 class="section-title reveal">What I Work With</h2>
+    <div class="section-divider"></div>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><i class="fas fa-code"></i> Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><i class="fas fa-cube"></i> Graphics &amp; Tools</div>
+        <div class="skill-tags">
+          <span class="skill-tag">OpenGL</span>
+          <span class="skill-tag">GLUT / freeglut</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Linux</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><i class="fas fa-brain"></i> Concepts</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Data Structures</span>
+          <span class="skill-tag">Algorithms</span>
+          <span class="skill-tag">Computer Graphics</span>
+          <span class="skill-tag">OOP</span>
+          <span class="skill-tag">Matrix Transforms</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section max-w">
+    <div class="section-label">03 / Projects</div>
+    <h2 class="section-title reveal">Things I've Built</h2>
+    <div class="section-divider"></div>
+    <div class="projects-grid">
+
+      <!-- Mini Paint Application -->
+      <div class="project-card reveal">
+        <div class="project-icon">🎨</div>
+        <div class="project-name">Mini Paint Application</div>
+        <p class="project-desc">A paint application built with C++ and OpenGL implementing classic computer graphics algorithms — DDA line drawing, Midpoint Circle, and Flood Fill. Features a multi-color palette, undo, and clear canvas functionality.</p>
+        <div class="project-techs">
+          <span class="tech-tag">C++</span>
+          <span class="tech-tag">OpenGL</span>
+          <span class="tech-tag">GLUT</span>
+          <span class="tech-tag">DDA Algorithm</span>
+          <span class="tech-tag">Flood Fill</span>
+        </div>
+        <a href="https://github.com/meSudip028/Mini-Paint-Application" target="_blank" rel="noopener" class="project-link">
+          <i class="fab fa-github"></i> View on GitHub <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- 2D Graphics Simulator -->
+      <div class="project-card reveal">
+        <div class="project-icon">📐</div>
+        <div class="project-name">2D Graphics Simulator</div>
+        <p class="project-desc">A 2D graphics drawing and transformation simulator using C++ and OpenGL. Supports line and circle drawing via DDA and Midpoint algorithms, plus real-time translation, rotation, and scaling using matrix mathematics.</p>
+        <div class="project-techs">
+          <span class="tech-tag">C++</span>
+          <span class="tech-tag">OpenGL</span>
+          <span class="tech-tag">Matrix Transforms</span>
+          <span class="tech-tag">Rotation</span>
+          <span class="tech-tag">Scaling</span>
+        </div>
+        <a href="https://github.com/meSudip028/2D-Graphics-Simulator" target="_blank" rel="noopener" class="project-link">
+          <i class="fab fa-github"></i> View on GitHub <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Portfolio Website -->
+      <div class="project-card reveal">
+        <div class="project-icon">🌐</div>
+        <div class="project-name">Personal Portfolio</div>
+        <p class="project-desc">This very site — a personal portfolio built with HTML, CSS, and vanilla JavaScript. Features a custom cursor, typed text animation, smooth scroll reveal, and a clean responsive dark-themed layout.</p>
+        <div class="project-techs">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Responsive</span>
+        </div>
+        <div class="project-link-row">
+          <a href="https://github.com/meSudip028/my-portfolio" target="_blank" rel="noopener" class="project-link">
+            <i class="fab fa-github"></i> GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="https://mesudip028.github.io/my-portfolio/" target="_blank" rel="noopener" class="project-link">
+            <i class="fas fa-external-link-alt"></i> Live Demo <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Coming Soon 1 -->
+      <div class="project-card project-card--soon reveal">
+        <div class="soon-badge">Coming Soon</div>
+        <div class="project-icon">⚙️</div>
+        <div class="project-name">New Project</div>
+        <p class="project-desc">Something exciting is in the works. A new project involving algorithms, systems, or web development — stay tuned for the reveal.</p>
+        <div class="project-techs">
+          <span class="tech-tag">C++</span>
+          <span class="tech-tag">TBD</span>
+        </div>
+        <span class="project-link project-link--muted">
+          <i class="fas fa-clock"></i> In Progress
+        </span>
+      </div>
+
+      <!-- Coming Soon 2 -->
+      <div class="project-card project-card--soon reveal">
+        <div class="soon-badge">Coming Soon</div>
+        <div class="project-icon">🚀</div>
+        <div class="project-name">New Project</div>
+        <p class="project-desc">Another project on the way. Growing one commit at a time — more builds, more learning, more shipping.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Web</span>
+          <span class="tech-tag">TBD</span>
+        </div>
+        <span class="project-link project-link--muted">
+          <i class="fas fa-clock"></i> In Progress
+        </span>
+      </div>
+
+    </div>
+  </section>
+  <section id="contact" class="section max-w">
+    <div class="section-label">04 / Contact</div>
+    <h2 class="section-title reveal">Get In Touch</h2>
+    <div class="section-divider"></div>
+    <div class="contact-inner">
+      <div class="contact-info reveal">
+        <p>I'm always open to new opportunities, collaborations, or just a friendly chat about code. Feel free to reach out through any of the platforms below!</p>
+        <div class="social-links">
+          <a href="https://github.com/meSudip028" target="_blank" rel="noopener" class="social-link">
+            <div class="social-icon gh"><i class="fab fa-github"></i></div>
+            <div class="social-text"><strong>GitHub</strong><small>github.com/meSudip028</small></div>
+          </a>
+          <a href="mailto:sudipbhattarai028@gmail.com" class="social-link">
+            <div class="social-icon gm"><i class="fas fa-envelope"></i></div>
+            <div class="social-text"><strong>Email</strong><small>sudipbhattarai028@gmail.com</small></div>
+          </a>
+        </div>
+      </div>
+      <div class="resume-box reveal">
+        <span class="resume-icon">📄</span>
+        <h3>My Resume</h3>
+        <p>Want to know more about my education, skills, and experience? Check out my resume.</p>
+        <a href="#" class="btn-resume"><i class="fas fa-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed &amp; Built by <span>Sudip Bhattarai</span> &nbsp;·&nbsp; <a href="https://github.com/meSudip028/my-portfolio" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:none;">Source</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
